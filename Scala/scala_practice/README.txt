@@ -1,0 +1,1 @@
+This is a practice project which helped me familiarise with Scala syntax and principles.
