@@ -1,0 +1,144 @@
+Proiect PP Taskset 3 - Ciuclea Alexia - 324CB
+
+Task 3.1
+- returnColumnByNameAsString = intoarce o coloana din tabel (coloana cu headerul primit), dar intoarce
+                                rezultatul in forma de Row ([String])
+- enrollment Query in Eval = m-am folosit de functiile muncite la taskseturile anterioare in mare parte
+                           = fiecare rezultat trebuie sa fie QResult, de aceea am folosit constructorul Table (sau List pentru unul dinitre ele)
+
+Task 3.2 & 3.3
+- getColumnValue = intoarce valoarea din matrice de pe coloana cu headerul colname si row-ul primit ca parametru
+- getColumnValueFloat = la fel ca anterioara doar ca converteste la Float
+- checkIfInRow = functie auxiliara pentru constructorul "In", verifica daca al doilea parametru se afla in lista primita ca prim parametru
+- compareColumnValues = compara 2 valori de pe un rand care se afla pe coloanele cu headerele primite ca parametru
+- Pentru inrolarea FilterCondition in FEval
+        => ma folosesc de forma curry a getColumnValue(Float) si combin cu o functie ce intoarce Bool
+- Pentru Inrolarea Filter in Eval => am folosit functia feval pe tabel si functia filter clasica
+
+Task 3.4
+- show_maybe_just = transforma rezultatul unei apelari de genul :show (Just "a")" in "a"
+- get_nodes_in_order = pentru o muchie, selecteaza ordinea in care se noteaza nodurile (lexicografic)
+- get_edges_for_node = primeste un nod (row din tabel) ca parametru si partea de sub acel row din tabel
+                     => cauta in partea primita ca parametru de tabel nodurile cu care se indeplineste conditia edgeOP
+                     => daca se indeplineste conditia, creeaza o linie de tip muchie pentru graf
+- build_graph = foloseste functia get_edges_for_node pentru fiecare nod in parte pentru a contrui intregul graf
+- pentru enroll-ul in Eval, doar am apelat functia build_graph si am atasat hederul
+
+Proiect PP Taskset 2 - Ciuclea Alexia - 324CB
+
+O sa explic functiile auxiliare pe taskuri pentru ca am folosit foarte multe :(
+
+Task 1
+- myIsDigit =  primeste un string si verifica daca e numar (asta merge doar pentru cazul nostru, 
+                in care campurile string din tabel nu contin si numere, de aceea verifica doar primul caracter)
+- findColumn = primeste un ColumnName si headerul unui tabel (Row) si intoarce indexul coloanei 
+                cu headerul dat prin ColumnName
+- myComparing = este un comparing din Data.Ord schimbat, dar va fi folosit in acelasi mod ca el, fiind apelat de sortBy
+                -> primeste un int ce indica coloana din Row in functie de care se face comparatia (intoarsa de functia findColumn la apel)
+                -> verifica daca campul de pe coloana i este EQ, daca este compara campurile de pe prima coloana, daca nu,
+                   continua cu comparatia dintre campurile de pe coloana i
+                -> se foloseste de helpingComp in loc de compare
+- helpingComp = indeplineste "acelasi rol" ca compare
+                -> primeste un int care indica indica coloana din Row in functie de care se face comparatia (intoarsa de functia findColumn la apel)
+                -> inainte sa faca comparatia, verifica daca campurile de pe coloana i sunt String sau Int, si intoarce tipul de comparatie 
+                   corect pentru campul respectiv
+
+Task 2
+- compareRows = compara 2 linii, compara fiecare field pe rand si intoarce Ordering
+- vunion = daca headerele sunt identice, concateneaza (fara headerul de la t2 => head t2), daca nu, ramane t1
+
+Task 3
+- getTableLength = intoarce umarul de linii al tabelului
+- buildPaddingRow = construieste o linie cu Int coloane de padding (elemente "")
+- addPaddingToTable = intoarce tabelul la care s-au adaugat Int linii de padding
+- concatTableRows = concateneaza liniile a doua tabele cu zipWith
+- addPadding = adauga padding la primul tabel primit ca parametru pentru a ajunge la marimea taelului al doilea
+
+Task 5
+- practic new_row_function trebuie apelat pe fiecare rand din t1 (un foldr) cu fiecare rand din t2 (alt foldr)
+- se aseamana practic cu for-uri imbricate dar sunt foldr-uri imbricate ;)
+
+Task 6
+- returnColumnByName = primeste un header de coloana si un tabel si intoarce coloana cu acel header
+                       (itereaza prin coloanele tabelului, daca o coloana are headerul respectiv, se opreste din cautat si returneaza acea coloana)
+                       (explicatie "(map (:[]) (map head x))" -> "(map head x)" intoarce coloana respectiva, dar ca un [Value], 
+                       si daca adaugam "map (:[])" rezulta un [[Value]] care sa fie adaugat usor in tabel)
+- projection = uneste coloanele gasite dupa nume cu returnColumnByName si le uneste cu zipWith                      
+
+Task 7
+- verifyCondition = primeste conditia si intoarce un sir de Bool care au urmatoarea semnificatie:
+                    True pe pozitia i => coloana i din tabel va fi pastrata, False pe pozitia i => coloana i din tabel va fi sarita
+- builFilteredTable = primeste [Bool] de tipul celei returnate de verifyCondition si tabelul initial si 
+                      pastreaza doar coloanele care au corespondentul True in sirul de Bool
+- filterTable = aplica functiile de mai sus; sunt folosite head si tail de multe ori ca sa nu se aplice conditia pe header
+
+
+
+Proiect PP Taskset1 - Ciuclea Alexia - 324CB
+
+O sa explic functiile auxiliare pe taskuri pentru ca am folosit foarte multe :(
+
+Task 1
+- get_names = extrage prima coloana din tabel (cea cu nume)
+- get_steps = extrage din tabel coloanele care contin numarul de pasi (ultimele 8)
+- op1 = o functie care ia un rand ([String]) de pasi si le calculeaza suma cu un foldr
+- op2 = functie ce transforma un sir de Integer in sir de Float ca sa mearga printf-ul
+        de asemenea imparte la 8 ca sa calculeze si media aritmetica
+- get_avg_steps = formateaza coloana cu average steps folosind functiile de mai sus
+- get_avg_steps_column = formateaza coloana rezultata mai sus incat sa aiba si header-ul nou
+- compute_average_steps = adauga inapoi coloana de nume la coloana rezultata anterior cu zipWith
+
+Task 2
+- get_passed_people_num = folosesc un foldr apelat pe coloana care contine numarul total de pasi al fiecarei persoane
+                            calculat ca la task 1
+- get_number_of_people = folosesc foldr ca mai sus dar am schimbat functia din fold pentru a numara toti oamenii
+- get_passed_people_percentage = am impartit ce a rezultat din get_passed_people_num la get_number_of_people
+                                am folosit fromIntegral ca sa devina float/fractionar ca sa se imparta
+- get_total_steps = folosesc foldr ca mai sus dar acum calculez suma tuturor pasilor facuti (suma coloanei cu pasii totali per persoana)
+- get_steps_avg = am impartit rezultatul get_total_steps la get_number_of_people
+
+Task 3
+- get_total_steps_in_hour = primeste o coloana cu steps si calculeaza suma lor (face si conversia string -> int)
+- get_total_steps_by_hour =  foloseste functia anterioara pentru a calcula totalul de steps pentru toate coloanele de steps din tabel si returneaza o lista cu ele
+- format_steps = formateaza tabelul anterior din int in string si calculeaza si average-ul prin impartirea valorilor calculate anterior la numarul de persoane din tabel
+- build_table = pune headerul in tabel
+- get_avg_steps_per_h = apeleaza functiile de mai sus pentru a returna lista conform cerintei
+
+Task 4
+- get_minutes = extrage din tabel coloanele cu minute 
+- format_minutes_to_integer = formateaza recursiv cele 3 coloane din tring in Integer pentru a putea face operatii
+- count_minutes = are 3 parametrii integer corespunzatori celor 3 rangeuri; acestia functioneaza ca niste acumulatori in care se retin cate valori de pe coloana de minute se 
+                incadreaza in fiecare range in parte; aceste 3 valori sunt intoarse intr-un triplet de Integers odata ce s-a ajung la sfasitul listei
+- get_very_active_minutes, get_fairly_active_minutes, get_lightly_active_minutes = extrage respectiva coloana din tabel, deja formatata ca lista de Integer prin functia de mai sus
+- tuplet_to_row = primeste tripletul de Integers si il formateaza drept o lista de string + ii adauga un header "s"
+- get_activ_summary = adauga headerul corespunzator, la care adauga cele 3 randuri de minute calculate apeland functiile de mai sus
+    apelul de tipul "count_minutes 0 0 0 (get_lightly_active_minutes m)" returneaza cele 3 valori respective fiecarui range si sunt apelate dupa cu tuplet_to_row pentru formatare
+
+Task 5
+- get_total_steps_and_name = extrage coloanele cu nume si numar de pasi
+- my_sorting_function = functie ce primeste 2 liste de string (rows-urile din tabelul tocmai extras) si le compara intai dupa coloana cu steps si apoi dupa coloana cu nume in cazul egalitatii
+                        am folosit functia compare intre campurile String si Integer din coloanele respective
+- get_ranking = adauga headerul corespunzator si sorteaza tabelul cu cele 2 coloane extras anterior folosind sortBy apelat cu functia de sortare my_sorting_function
+
+Task 6
+- calc_average_4: ia un sir de String (primmele 4h sau ultimele 4h de pe un rand din tabel) si calculeaza media aritmetica a celor 4 (in cazul asta) valori cu un foldr
+- get_average_4h_table: construieste cele doua coloane de average de primele 4h si ultimele 4h 
+                        imparte tabelul initial (cel cu 8 coloane de minute) si separa primele 4 cu map (take 4) si ultimele 4 cu (map (take 4) (map reverse m))
+                        dupa pe cele 2 perechi de 4 coloane am aplicat calc_average_4 folosind map incat sa se aplice pe fiecare row
+                        dupa le unesc in 2 coloane folosind zipWith
+- insert_difference_column = primeste tabelul de mai sus care contine [average first 4h, average last 4h] pe coloane si adauga coloana de diferenta folosind patter matching si recursivitate
+- format_4h_to_table = formateaza tabelul rezultat mai sus in tabel de Strings
+- my_sorting_function_task6 = acelasi algoritm ca la my_sorting_function doar ca sortez in functie de alte coloane din pattern
+- get_steps_diff_table =  adauga headerul (as usual) si sorteaza cu sortBy apelat cu my_sorting_function_task6
+                        zipWith-ul e ca sa ataseze la loc coloana de nume ((map head (tail m)))
+
+Task 7
+- am apelat recursiv functia f pe fiecare valoare folosind map, si dupa am interat prin tabel folosind recursivitate again, 
+  dar nu cu pattern matching, am extras prima linie cu head si am folosit tail pentru recursie 
+
+Task 8
+- rmap = cu zipWith am unit headerul cu restul tabelului
+        !! am folosit (map tail m) si nu (m) pentru ca mi se parea ciudat sa unesc la header desi nu il extrag pe cel initial (chiar daca nu era clar in cerinta)
+        in rest pur si simplu am apelat map cu parametrul f pe tot tabelul
+
+- get_sleep_total = folosesc un foldr ca sa adun coloanele cu minute dormite (tail r) si dupa il unesc cu (:) cu prima coloana care continea emailul
