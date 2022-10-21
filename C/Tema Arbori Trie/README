@@ -1,0 +1,28 @@
+/* CIUCLEA Alexia - 314CB */
+
+Punctaj: 135/135 0/20
+
+===FISIERE===
+1. trie.h = fisierul header in care sunt declarate cele doua structuri de trie
+    TRIET1 -> are un vector de pointeri spre alte 68 de structuri trie (children - de marimea alfabetului)
+            un nr intreg end care retine daca acel element este sfarsitul unui cuvant, si un pointer info spre 
+            structura book a unei carti, care este NULL in cazul in care nu este sfarsitul unui cuvant
+    TRIET2 -> asemanator cu triet1, doar ca informatia retinuta este un pointer varful unei structuri
+            triet1 in care sun retinute cartile autorului
+    BOOK -> structura de carte
+    -> rolurile functiilo sunt explicate in comentariile din cod
+
+2. trie.c = fisierul in care sunt functiile pentru structura trie
+    CompAlph -> functia care stabileste ordinea lexicografica, atribuind fiecarei litere un cod numeric
+    newT1/newT2 -> aloca memorie pentru structurile triet1/triet2
+    insertT1/insertT2 -> functii de inserare in arbori (explicate in comentarii in cod)
+    searchT1/searchT2 -> functii care cauta daca o anumita informatie se afla in arbore
+    print -> fucntia care afiseaza toate cartile dintr-un arbore triet1
+    listT2 -> functie care afiseaza cartile unui autor
+    functiile de autocomplete sunt asemanatoare celor clasice, doar ca de la punctul in care se termina stringul, 
+        caut in subarborele prin parcurgerea lui recursiv toate sfarsiturile de cuvant in care este informatie
+    deletionT1/deletionT2 -> functii care prin recursivitate, odata ce gasesc cuvantul in arbore (sfarsitul cuvantului), se intorc
+                            pe calea lui si dau delete la noduri (la litere)
+3. main.c -> contine functia buildBook care prineste informatiile necesare pentru o carte si intoarce un pointer spre o carte cu acele informatii, 
+            si Citeste_input care citeste inputul din fisierul de intrare linie cu linie si indeplineste comenzile cerute folosind functiile
+            din trie.c

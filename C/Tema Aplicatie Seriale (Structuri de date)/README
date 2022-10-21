@@ -1,0 +1,57 @@
+/* CIUCLEA Alexia - 314CB */
+
+Punctaj local: 91/135 , 0/20;
+
+Fisiere:
+1. stiva.h = fisierul unde este declarata structura de stiva + functii de prelucrare (descrise in comentarii)
+
+2. stiva.c = fisierul care contine functiile de prelucrare a stivei
+- dupa ce este initializata, o stiva este vida atunci cand baza/varful au campul info NULL, deci este necesara doar o initializare a stivei
+- functiile sunt explicate in comentariile din fisier
+- in general, la afisare ultimul pas este scos din loop pentru a nu pune virgula la sfarsit
+- afisarea presupune parcurgerea stivei; la fiecare pas se copiaza elementul din varf, se afiseaza, si se insereaza
+  intr-o stiva auxiliara; dupa se reconstruieste stiva initiala
+
+3. coada.h = fisierul unde este declarata structura de coada + functii de prelucrare (descrise in comentarii)
+
+4. coada.c = fisierul care contine functiile de prelucrare a cozii
+- dupa ce este initializata, o coada este vida atunci cand fata/spatele au campul info NULL, deci este necesara doar o initializare a cozii
+- functiile sunt explicate in comentariile din fisier
+- in general, la afisare ultimul pas este scos din loop pentru a nu pune virgula la sfarsit
+- afisarea presupune parcurgerea cozii; la fiecare pas se copiaza elementul din fata, se afiseaza, si se insereaza
+intr-o coada auxiliara; dupa se reconstruieste coada initiala
+
+5. lista-generica.h = fisierul unde este declarata structura de lista + functii de prelucrare (descrise in comentarii)
+
+6. lista-generica.c = fisierul care contine functiile de prelucrare a listei
+- contine 3 functii, explicate in comentarii
+- functia "Comparare_seriale" este denumita asa, dar de fapt poate fi orice functie de comparare de orice element, 
+  nu numai de seriale, depinde cum este apelata (am denumit-o asa pentru a fi mai usor, dar po aparea confuzii)
+
+7. serial.h = fisier header care contine structurile pentru serial, serial de tip Top, sezom si episod + functii de prelucrare cu seriale
+ - functia "Find_erase" = parcurge fiecare lista de seriale in parte pana gaseste elementul cerut (variabila "gasit); returneaza
+   pointerul spre serial
+
+8. serial.c = fisier in care sunt functiile de prelucrare serial
+- functiile de afisare a structurii dau cast la elementul primit si il afiseaza
+- functiile de afisare a listelor pargurg lista respectiva (in fucntie de ID) si afiseaza
+- functiile de adaugare in lista parcurg lista pana cand poate fi adaugat elementul
+- functiile de cautare au metode asemnatoare de cautare in liste/stive/cozi, prin parcurgerea
+- toate aceste functii + functia Watch sunt explicate mai in detaliu in comentariile din fisier
+- am identificat daca un serial este de tip top prin ID-ul lui (4 in cazul acesta)
+
+9. main.c
+- contine functia Citeste_input care citeste linie cu linie textul fisierului de input
+- in functie de primul cuvant de pe linie, indeplineste comanda:
+i) functia "add" citeste fiecare camp de pe linie, dupa incepe sa itereze prin elemtele de pe linie pentru a insera 
+in coada de sezoane si de episoade (cu strtok), dupa adauga serialul in lista in functie de ID-ul citit, si printeaza mesajul
+ii) functia "show" citeste inputul si in functie de categoria citita afiseaza structura aferenta acelei categorii, 
+folosind functiile de afisare din celellte Fisiere
+iii) functia "add_sez" citeste numele de pe linie, foloseste functia FInd pentru a gasi serialul, parcurge inputul liniei la fel ca 
+la functia "add" in cazul sezonului, si introduce la finial in lista de sezoane a show-ului noul sezon (sunt doua cazuri diferite pentru
+serial de tip top sau clasic)
+iv) "add_top": functie aproape identica cu "add", dar specifica pentru structura de tip top, foloseste functiile aferente din fisierele celelalte
+v) functia "later" foloseste functia Find_erase din serial.c pentru a gasi si a sterge elementul care trebuie pus in coada Later; 
+introduce elementul apoi in coada; pozitia la care a fost inserat este de fapt dimensiunea cozii
+vi)functia "watch" apeleaza functia Find_to_watch din serial.c dupa ce a citit numele serialului si durata de vizionare din linie
+; afiseaza mesajul cerut daca serialul a fost vizionat integral

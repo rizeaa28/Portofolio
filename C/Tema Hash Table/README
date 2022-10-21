@@ -1,0 +1,18 @@
+/* CIUCLEA Alexia - 314CB */
+
+Fisiere sursa:
+1. tlg.h - fisierul header pentru functiile necesare implementarii structurii de lista dublu inlantuita generica circulara
+2. thash.h - fisierul header pentru implemenarea tabelei hash
+3. testHash.c - fisierul "main"
+4. functii-tabHash.c - fisierul in care sunt implementate functiile pentru tabela hash
+5. functiiLG.c - fisierul in care sunt implementate functiile pentru lista dublu inlantuita generica circulara
+
+Implementarea temei:
+ - am initializat tabela hash
+ - am citit inputul din fisier linie cu linie, pentru a putea realiza fiecare comanda pe rand
+ - am facut o functie pentru fiecare comanda, toata functiile de aici sunt in fisierul "functii-tabHash.c" (ex: Get_key, Remove, etc)
+ - fiecare din functiile precizate mai sus se bazeaza pe parcurgerea tabelei hash si realizarea modificarilor pe anumite elemente si/sau 
+ afisarea lor
+ - am citit argumentele din linia de comanda folosind argv si argc
+
+

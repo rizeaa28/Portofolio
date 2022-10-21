@@ -1,0 +1,29 @@
+===============================================================================
+
+                            Tema MN
+                    Interpolare aplicata pe imagini
+
+===============================================================================
+
+Acest README contine informatii despre cum este structurat scheletul si
+checker-ul temei.
+
+===============================================================================
+
+1. Indicatii checker
+
+Fiecare cerinta se afla intr-un director separat:
+.
+├── bicubic
+├── bilinear
+└── nearest-neighbour
+
+In directorul tests se afla fisierele de intrare si de referinta.
+
+Fiecare cerinta are propriul checker. De exemplu, in folder-ul bilinear se
+poate rula checker-ul pentru cerinta aferenta astfel:
+
+octave checker_bilinear.m
+
+===============================================================================
+
