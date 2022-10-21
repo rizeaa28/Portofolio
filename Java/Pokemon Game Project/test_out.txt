@@ -1,0 +1,861 @@
+Batalia intre Alexia si Radu a inceput!
+
+
+=====================================
+Runda 1 din arena a inceput!
+Lupta incepe intre: 
+Alexia il foloseste in batalie pe Vulpix [HP 46] [Attack 8] [Special Attack 0] [Def 5] [Special Def 6] 
+NPC il foloseste in batalie pe Neutrel1 [HP 10] [Attack 3] [Special Attack 0] [Def 1] [Special Def 1] 
+
+==Runda 1
+Vulpix foloseste abilitatea 2.
+Neutrel1 foloseste atacul clasic.
+Vulpix HP 46(46 - 0)  [abilitatea 2 cooldown 7]
+Vulpix a dat dodge
+Neutrel1 HP 8(10 - 2) 
+
+==Runda 2
+Vulpix foloseste atacul clasic.
+Neutrel1 foloseste atacul clasic.
+Vulpix HP 46(46 - 0)  [abilitatea 2 cooldown 6]
+Neutrel1 HP 1(8 - 7) 
+
+==Runda 3
+Vulpix foloseste abilitatea 1.
+Neutrel1 foloseste atacul clasic.
+Vulpix HP 46(46 - 0) [abilitatea 1 cooldown 6] [abilitatea 2 cooldown 5]
+Neutrel1 HP 0(1 - 8) 
+
+====Antrenorul Alexia castiga.====
+Atribute Vulpix (primeste +1 la toate caracteristicile):
+HP 47 Attack 9 Def 6 Special Def 7
+Lupta incepe intre: 
+Radu il foloseste in batalie pe Eevee [HP 39] [Attack 0] [Special Attack 7] [Def 5] [Special Def 8] 
+NPC il foloseste in batalie pe Neutrel1 [HP 10] [Attack 3] [Special Attack 0] [Def 1] [Special Def 1] 
+
+==Runda 1
+Eevee foloseste atacul clasic.
+Neutrel1 este stunned
+Eevee HP 39(39 - 0)  
+Neutrel1 HP 4(10 - 6) 
+
+==Runda 2
+Eevee foloseste abilitatea 1.
+Neutrel1 foloseste atacul clasic.
+Eevee HP 39(39 - 0) [abilitatea 1 cooldown 3] 
+Neutrel1 HP 0(4 - 5) 
+
+====Antrenorul Radu castiga.====
+Atribute Eevee (primeste +1 la toate caracteristicile):
+HP 40 Special Attack 8 Def 6 Special Def 9
+
+
+=====================================
+Runda 2 din arena a inceput!
+Lupta incepe intre: 
+Alexia il foloseste in batalie pe Bulbasaur [HP 44] [Attack 2] [Special Attack 10] [Def 5] [Special Def 3] 
+Radu il foloseste in batalie pe Pikachu [HP 45] [Attack 0] [Special Attack 7] [Def 4] [Special Def 5] 
+
+==Runda 1
+Bulbasaur foloseste abilitatea 1.
+Pikachu foloseste atacul clasic.
+Bulbasaur HP 42(44 - 2) [abilitatea 1 cooldown 4] 
+Pikachu HP 39(45 - 6)  
+
+==Runda 2
+Bulbasaur foloseste abilitatea 2.
+Pikachu foloseste atacul clasic.
+Bulbasaur HP 40(42 - 2) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 3]
+Pikachu HP 34(39 - 5)  
+
+==Runda 3
+Bulbasaur foloseste atacul clasic.
+Pikachu foloseste abilitatea 1.
+Bulbasaur HP 34(40 - 6) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 2]
+Pikachu HP 34(34 - 0) [abilitatea 1 cooldown 4] 
+
+==Runda 4
+Bulbasaur foloseste atacul clasic.
+Pikachu foloseste atacul special.
+Bulbasaur HP 30(34 - 4) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 1]
+Pikachu HP 34(34 - 0) [abilitatea 1 cooldown 3] 
+
+==Runda 5
+Bulbasaur foloseste atacul special.
+Pikachu foloseste atacul clasic.
+Bulbasaur HP 28(30 - 2)  
+Pikachu HP 34(34 - 0) [abilitatea 1 cooldown 2] 
+
+==Runda 6
+Bulbasaur foloseste abilitatea 2.
+Pikachu foloseste abilitatea 2.
+Bulbasaur HP 24(28 - 4)  [abilitatea 2 cooldown 3]
+Pikachu HP 34(34 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 5]
+Pikachu a dat dodge
+
+==Runda 7
+Bulbasaur este stunned
+Pikachu foloseste atacul special.
+Bulbasaur HP 20(24 - 4)  [abilitatea 2 cooldown 2]
+Pikachu HP 34(34 - 0)  [abilitatea 2 cooldown 4]
+
+==Runda 8
+Bulbasaur foloseste atacul clasic.
+Pikachu foloseste atacul special.
+Bulbasaur HP 16(20 - 4)  [abilitatea 2 cooldown 1]
+Pikachu HP 34(34 - 0)  [abilitatea 2 cooldown 3]
+
+==Runda 9
+Bulbasaur foloseste abilitatea 1.
+Pikachu foloseste atacul clasic.
+Bulbasaur HP 14(16 - 2) [abilitatea 1 cooldown 4] 
+Pikachu HP 28(34 - 6)  [abilitatea 2 cooldown 2]
+
+==Runda 10
+Bulbasaur foloseste atacul clasic.
+Pikachu foloseste abilitatea 1.
+Bulbasaur HP 8(14 - 6) [abilitatea 1 cooldown 3] 
+Pikachu HP 28(28 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 1]
+
+==Runda 11
+Bulbasaur foloseste atacul clasic.
+Pikachu foloseste atacul clasic.
+Bulbasaur HP 6(8 - 2) [abilitatea 1 cooldown 2] 
+Pikachu HP 28(28 - 0) [abilitatea 1 cooldown 3] 
+
+==Runda 12
+Bulbasaur foloseste abilitatea 2.
+Pikachu foloseste abilitatea 2.
+Bulbasaur HP 2(6 - 4) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 3]
+Pikachu HP 28(28 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 5]
+Pikachu a dat dodge
+
+==Runda 13
+Bulbasaur este stunned
+Pikachu foloseste atacul special.
+Bulbasaur HP 0(2 - 4)  [abilitatea 2 cooldown 2]
+Pikachu HP 28(28 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 4]
+
+====Antrenorul Radu castiga.====
+Atribute Pikachu (primeste +1 la toate caracteristicile):
+HP 46 Special Attack 8 Def 5 Special Def 6
+
+
+=====================================
+Runda 3 din arena a inceput!
+Lupta incepe intre: 
+Alexia il foloseste in batalie pe Psyduck [HP 45] [Attack 5] [Special Attack 2] [Def 5] [Special Def 8] 
+NPC il foloseste in batalie pe Neutrel1 [HP 10] [Attack 3] [Special Attack 0] [Def 1] [Special Def 1] 
+
+==Runda 1
+Psyduck foloseste abilitatea 1.
+Neutrel1 foloseste atacul clasic.
+Psyduck HP 45(45 - 0) [abilitatea 1 cooldown 4] 
+Neutrel1 HP 8(10 - 2) 
+
+==Runda 2
+Psyduck foloseste atacul special.
+Neutrel1 foloseste atacul clasic.
+Psyduck HP 45(45 - 0) [abilitatea 1 cooldown 3] 
+Neutrel1 HP 4(8 - 4) 
+
+==Runda 3
+Psyduck foloseste atacul clasic.
+Neutrel1 foloseste atacul clasic.
+Psyduck HP 45(45 - 0) [abilitatea 1 cooldown 2] 
+Neutrel1 HP 0(4 - 4) 
+
+====Antrenorul Alexia castiga.====
+Atribute Psyduck (primeste +1 la toate caracteristicile):
+HP 46 Attack 6 Special Attack 3 Def 6 Special Def 9
+Lupta incepe intre: 
+Radu il foloseste in batalie pe Snorlax [HP 64] [Attack 5] [Special Attack 2] [Def 8] [Special Def 9] 
+NPC il foloseste in batalie pe Neutrel1 [HP 10] [Attack 3] [Special Attack 0] [Def 1] [Special Def 1] 
+
+==Runda 1
+Snorlax foloseste abilitatea 1.
+Neutrel1 foloseste atacul clasic.
+Snorlax HP 64(64 - 0) [abilitatea 1 cooldown 5] 
+Neutrel1 HP 6(10 - 4) 
+
+==Runda 2
+Snorlax foloseste atacul special.
+Neutrel1 este stunned
+Snorlax HP 64(64 - 0) [abilitatea 1 cooldown 4] 
+Neutrel1 HP 2(6 - 4) 
+
+==Runda 3
+Snorlax foloseste atacul special.
+Neutrel1 foloseste atacul clasic.
+Snorlax HP 64(64 - 0) [abilitatea 1 cooldown 3] 
+Neutrel1 HP 0(2 - 4) 
+
+====Antrenorul Radu castiga.====
+Atribute Snorlax (primeste +1 la toate caracteristicile):
+HP 65 Attack 6 Special Attack 3 Def 9 Special Def 10
+
+
+=====================================
+Runda 4 din arena a inceput!
+Lupta incepe intre: 
+Alexia il foloseste in batalie pe Psyduck [HP 46] [Attack 6] [Special Attack 3] [Def 6] [Special Def 9] 
+Radu il foloseste in batalie pe Snorlax [HP 65] [Attack 6] [Special Attack 3] [Def 9] [Special Def 10] 
+
+==Runda 1
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul clasic.
+Psyduck HP 46(46 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 5]
+Snorlax HP 63(65 - 2) [abilitatea 1 cooldown 2] 
+
+==Runda 2
+Psyduck foloseste atacul special.
+Snorlax este stunned
+Psyduck HP 46(46 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 63(63 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 3
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul special.
+Psyduck HP 46(46 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 63(63 - 0)  
+
+==Runda 4
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul clasic.
+Psyduck HP 46(46 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 2]
+Snorlax HP 61(63 - 2)  
+
+==Runda 5
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 46(46 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 1]
+Snorlax HP 61(61 - 0)  
+
+==Runda 6
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 46(46 - 0) [abilitatea 1 cooldown 2] 
+Snorlax HP 61(61 - 0)  
+
+==Runda 7
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 42(46 - 4) [abilitatea 1 cooldown 1] 
+Snorlax HP 61(61 - 0) [abilitatea 1 cooldown 5] 
+
+==Runda 8
+Psyduck este stunned
+Snorlax foloseste abilitatea 2.
+Psyduck HP 42(42 - 0)  
+Snorlax HP 61(61 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 9
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul special.
+Psyduck HP 42(42 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 59(61 - 2) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 4]
+
+==Runda 10
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul special.
+Psyduck HP 42(42 - 0) [abilitatea 1 cooldown 3] 
+Snorlax HP 59(59 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 3]
+
+==Runda 11
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 42(42 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 5]
+Snorlax HP 57(59 - 2) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 2]
+
+==Runda 12
+Psyduck foloseste atacul clasic.
+Snorlax este stunned
+Psyduck HP 42(42 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 4]
+Snorlax HP 57(57 - 0)  [abilitatea 2 cooldown 1]
+
+==Runda 13
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 38(42 - 4)  [abilitatea 2 cooldown 3]
+Snorlax HP 57(57 - 0) [abilitatea 1 cooldown 5] 
+
+==Runda 14
+Psyduck este stunned
+Snorlax foloseste abilitatea 2.
+Psyduck HP 38(38 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 57(57 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 15
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 38(38 - 0)  [abilitatea 2 cooldown 1]
+Snorlax HP 57(57 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 4]
+
+==Runda 16
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul clasic.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 55(57 - 2) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 3]
+
+==Runda 17
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 5]
+Snorlax HP 53(55 - 2) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 2]
+
+==Runda 18
+Psyduck foloseste atacul clasic.
+Snorlax este stunned
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 4]
+Snorlax HP 53(53 - 0)  [abilitatea 2 cooldown 1]
+
+==Runda 19
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 3]
+Snorlax HP 53(53 - 0)  
+
+==Runda 20
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 38(38 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 53(53 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 21
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul special.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 1]
+Snorlax HP 51(53 - 2)  [abilitatea 2 cooldown 4]
+
+==Runda 22
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul special.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 3] 
+Snorlax HP 51(51 - 0)  [abilitatea 2 cooldown 3]
+
+==Runda 23
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 2] 
+Snorlax HP 51(51 - 0)  [abilitatea 2 cooldown 2]
+
+==Runda 24
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul clasic.
+Psyduck HP 38(38 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 5]
+Snorlax HP 49(51 - 2)  [abilitatea 2 cooldown 1]
+
+==Runda 25
+Psyduck foloseste atacul clasic.
+Snorlax este stunned
+Psyduck HP 38(38 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 49(49 - 0)  
+
+==Runda 26
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 38(38 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 49(49 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 27
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 34(38 - 4) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 2]
+Snorlax HP 47(49 - 2) [abilitatea 1 cooldown 5] [abilitatea 2 cooldown 4]
+
+==Runda 28
+Psyduck este stunned
+Snorlax foloseste atacul clasic.
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 1]
+Snorlax HP 47(47 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 3]
+
+==Runda 29
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 2] 
+Snorlax HP 47(47 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 2]
+
+==Runda 30
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 1] 
+Snorlax HP 47(47 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 1]
+
+==Runda 31
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 34(34 - 0)  
+Snorlax HP 47(47 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 32
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 34(34 - 0)  
+Snorlax HP 47(47 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 33
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul special.
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 45(47 - 2)  [abilitatea 2 cooldown 4]
+
+==Runda 34
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 5]
+Snorlax HP 43(45 - 2)  [abilitatea 2 cooldown 3]
+
+==Runda 35
+Psyduck foloseste atacul special.
+Snorlax este stunned
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 4]
+Snorlax HP 43(43 - 0)  [abilitatea 2 cooldown 2]
+
+==Runda 36
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 34(34 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 3]
+Snorlax HP 43(43 - 0)  [abilitatea 2 cooldown 1]
+
+==Runda 37
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 30(34 - 4)  [abilitatea 2 cooldown 2]
+Snorlax HP 43(43 - 0) [abilitatea 1 cooldown 5] 
+
+==Runda 38
+Psyduck este stunned
+Snorlax foloseste atacul special.
+Psyduck HP 30(30 - 0)  [abilitatea 2 cooldown 1]
+Snorlax HP 43(43 - 0) [abilitatea 1 cooldown 4] 
+
+==Runda 39
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 30(30 - 0)  
+Snorlax HP 43(43 - 0) [abilitatea 1 cooldown 3] 
+
+==Runda 40
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 30(30 - 0)  [abilitatea 2 cooldown 5]
+Snorlax HP 41(43 - 2) [abilitatea 1 cooldown 2] 
+
+==Runda 41
+Psyduck foloseste atacul clasic.
+Snorlax este stunned
+Psyduck HP 30(30 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 41(41 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 42
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 30(30 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 41(41 - 0)  
+
+==Runda 43
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 30(30 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 41(41 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 44
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 26(30 - 4) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 1]
+Snorlax HP 39(41 - 2) [abilitatea 1 cooldown 5] [abilitatea 2 cooldown 4]
+
+==Runda 45
+Psyduck este stunned
+Snorlax foloseste atacul special.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 3] 
+Snorlax HP 39(39 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 3]
+
+==Runda 46
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 2] 
+Snorlax HP 39(39 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 2]
+
+==Runda 47
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 1] 
+Snorlax HP 39(39 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 1]
+
+==Runda 48
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 26(26 - 0)  [abilitatea 2 cooldown 5]
+Snorlax HP 37(39 - 2) [abilitatea 1 cooldown 1] 
+
+==Runda 49
+Psyduck foloseste atacul special.
+Snorlax este stunned
+Psyduck HP 26(26 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 37(37 - 0)  
+
+==Runda 50
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul clasic.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 3]
+Snorlax HP 35(37 - 2)  
+
+==Runda 51
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 2]
+Snorlax HP 35(35 - 0)  
+
+==Runda 52
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 1]
+Snorlax HP 35(35 - 0)  
+
+==Runda 53
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 1] 
+Snorlax HP 35(35 - 0)  
+
+==Runda 54
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul clasic.
+Psyduck HP 26(26 - 0)  [abilitatea 2 cooldown 5]
+Snorlax HP 33(35 - 2)  
+
+==Runda 55
+Psyduck foloseste abilitatea 1.
+Snorlax este stunned
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 4]
+Snorlax HP 31(33 - 2)  
+
+==Runda 56
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 3]
+Snorlax HP 31(31 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 57
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 2]
+Snorlax HP 31(31 - 0)  [abilitatea 2 cooldown 4]
+
+==Runda 58
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 26(26 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 1]
+Snorlax HP 31(31 - 0)  [abilitatea 2 cooldown 3]
+
+==Runda 59
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 22(26 - 4)  
+Snorlax HP 31(31 - 0) [abilitatea 1 cooldown 5] [abilitatea 2 cooldown 2]
+
+==Runda 60
+Psyduck este stunned
+Snorlax foloseste atacul special.
+Psyduck HP 22(22 - 0)  
+Snorlax HP 31(31 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 1]
+
+==Runda 61
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 22(22 - 0)  [abilitatea 2 cooldown 5]
+Snorlax HP 29(31 - 2) [abilitatea 1 cooldown 3] 
+
+==Runda 62
+Psyduck foloseste atacul special.
+Snorlax este stunned
+Psyduck HP 22(22 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 29(29 - 0) [abilitatea 1 cooldown 2] 
+
+==Runda 63
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 22(22 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 29(29 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 64
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 22(22 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 29(29 - 0)  
+
+==Runda 65
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 18(22 - 4)  [abilitatea 2 cooldown 1]
+Snorlax HP 29(29 - 0) [abilitatea 1 cooldown 5] 
+
+==Runda 66
+Psyduck este stunned
+Snorlax foloseste abilitatea 2.
+Psyduck HP 18(18 - 0)  
+Snorlax HP 29(29 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 67
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul special.
+Psyduck HP 18(18 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 27(29 - 2) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 4]
+
+==Runda 68
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 18(18 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 5]
+Snorlax HP 25(27 - 2) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 3]
+
+==Runda 69
+Psyduck foloseste atacul clasic.
+Snorlax este stunned
+Psyduck HP 18(18 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 4]
+Snorlax HP 25(25 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 2]
+
+==Runda 70
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 18(18 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 3]
+Snorlax HP 25(25 - 0)  [abilitatea 2 cooldown 1]
+
+==Runda 71
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 18(18 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 25(25 - 0)  
+
+==Runda 72
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 18(18 - 0)  [abilitatea 2 cooldown 1]
+Snorlax HP 25(25 - 0)  
+
+==Runda 73
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 18(18 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 25(25 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 74
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 18(18 - 0) [abilitatea 1 cooldown 3] 
+Snorlax HP 25(25 - 0)  [abilitatea 2 cooldown 4]
+
+==Runda 75
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 14(18 - 4) [abilitatea 1 cooldown 2] 
+Snorlax HP 25(25 - 0) [abilitatea 1 cooldown 5] [abilitatea 2 cooldown 3]
+
+==Runda 76
+Psyduck este stunned
+Snorlax foloseste atacul special.
+Psyduck HP 14(14 - 0) [abilitatea 1 cooldown 1] 
+Snorlax HP 25(25 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 2]
+
+==Runda 77
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul clasic.
+Psyduck HP 14(14 - 0)  [abilitatea 2 cooldown 5]
+Snorlax HP 23(25 - 2) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 1]
+
+==Runda 78
+Psyduck foloseste atacul special.
+Snorlax este stunned
+Psyduck HP 14(14 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 23(23 - 0) [abilitatea 1 cooldown 2] 
+
+==Runda 79
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 14(14 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 23(23 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 80
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul special.
+Psyduck HP 14(14 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 23(23 - 0)  
+
+==Runda 81
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 14(14 - 0)  [abilitatea 2 cooldown 1]
+Snorlax HP 23(23 - 0)  
+
+==Runda 82
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 14(14 - 0)  
+Snorlax HP 23(23 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 83
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 10(14 - 4)  [abilitatea 2 cooldown 5]
+Snorlax HP 21(23 - 2) [abilitatea 1 cooldown 5] [abilitatea 2 cooldown 4]
+
+==Runda 84
+Psyduck este stunned
+Snorlax este stunned
+Psyduck HP 10(10 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 21(21 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 3]
+
+==Runda 85
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul special.
+Psyduck HP 10(10 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 21(21 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 2]
+
+==Runda 86
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul special.
+Psyduck HP 10(10 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 2]
+Snorlax HP 19(21 - 2) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 1]
+
+==Runda 87
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 10(10 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 1]
+Snorlax HP 19(19 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 88
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 10(10 - 0) [abilitatea 1 cooldown 2] 
+Snorlax HP 19(19 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 89
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste atacul special.
+Psyduck HP 10(10 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 5]
+Snorlax HP 17(19 - 2)  [abilitatea 2 cooldown 4]
+
+==Runda 90
+Psyduck foloseste atacul clasic.
+Snorlax este stunned
+Psyduck HP 10(10 - 0)  [abilitatea 2 cooldown 4]
+Snorlax HP 17(17 - 0)  [abilitatea 2 cooldown 3]
+
+==Runda 91
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 10(10 - 0)  [abilitatea 2 cooldown 3]
+Snorlax HP 17(17 - 0)  [abilitatea 2 cooldown 2]
+
+==Runda 92
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 10(10 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 17(17 - 0)  [abilitatea 2 cooldown 1]
+
+==Runda 93
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 10(10 - 0)  [abilitatea 2 cooldown 1]
+Snorlax HP 17(17 - 0)  
+
+==Runda 94
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 6(10 - 4)  
+Snorlax HP 17(17 - 0) [abilitatea 1 cooldown 5] 
+
+==Runda 95
+Psyduck este stunned
+Snorlax foloseste abilitatea 2.
+Psyduck HP 6(6 - 0)  
+Snorlax HP 17(17 - 0) [abilitatea 1 cooldown 4] [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 96
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 6(6 - 0)  
+Snorlax HP 17(17 - 0) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 4]
+
+==Runda 97
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul special.
+Psyduck HP 6(6 - 0)  
+Snorlax HP 17(17 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 3]
+
+==Runda 98
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 6(6 - 0)  
+Snorlax HP 17(17 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 2]
+
+==Runda 99
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul clasic.
+Psyduck HP 6(6 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 15(17 - 2)  [abilitatea 2 cooldown 1]
+
+==Runda 100
+Psyduck foloseste abilitatea 2.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 2(6 - 4) [abilitatea 1 cooldown 3] [abilitatea 2 cooldown 5]
+Snorlax HP 13(15 - 2) [abilitatea 1 cooldown 5] 
+
+==Runda 101
+Psyduck este stunned
+Snorlax este stunned
+Psyduck HP 2(2 - 0) [abilitatea 1 cooldown 2] [abilitatea 2 cooldown 4]
+Snorlax HP 13(13 - 0) [abilitatea 1 cooldown 4] 
+
+==Runda 102
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 2(2 - 0) [abilitatea 1 cooldown 1] [abilitatea 2 cooldown 3]
+Snorlax HP 13(13 - 0) [abilitatea 1 cooldown 3] 
+
+==Runda 103
+Psyduck foloseste atacul special.
+Snorlax foloseste atacul clasic.
+Psyduck HP 2(2 - 0)  [abilitatea 2 cooldown 2]
+Snorlax HP 13(13 - 0) [abilitatea 1 cooldown 2] 
+
+==Runda 104
+Psyduck foloseste atacul clasic.
+Snorlax foloseste atacul clasic.
+Psyduck HP 2(2 - 0)  [abilitatea 2 cooldown 1]
+Snorlax HP 13(13 - 0) [abilitatea 1 cooldown 1] 
+
+==Runda 105
+Psyduck foloseste atacul special.
+Snorlax foloseste abilitatea 2.
+Psyduck HP 2(2 - 0)  
+Snorlax HP 13(13 - 0)  [abilitatea 2 cooldown 5]
+Snorlax a dat dodge
+
+==Runda 106
+Psyduck foloseste abilitatea 1.
+Snorlax foloseste atacul special.
+Psyduck HP 2(2 - 0) [abilitatea 1 cooldown 4] 
+Snorlax HP 11(13 - 2)  [abilitatea 2 cooldown 4]
+
+==Runda 107
+Psyduck foloseste atacul clasic.
+Snorlax foloseste abilitatea 1.
+Psyduck HP 0(2 - 4) [abilitatea 1 cooldown 3] 
+Snorlax HP 11(11 - 0) [abilitatea 1 cooldown 5] [abilitatea 2 cooldown 3]
+
+====Antrenorul Radu castiga.====
+Atribute Snorlax (primeste +1 la toate caracteristicile):
+HP 66 Attack 7 Special Attack 4 Def 10 Special Def 11

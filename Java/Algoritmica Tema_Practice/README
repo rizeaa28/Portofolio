@@ -1,0 +1,107 @@
+Ciuclea Alexia - 324CB - Tema 1 PA
+
+PROBLEMA 1
+-> foloseste Divite et Impera
+-> pentru fiecare set de coordonate:
+    -> setam value = 0 (false)
+    -> imparte matricea in 4 cadrane, verifica in ce cadran se aflat (x,y)
+    -> in functie de cadran, ajusteaza coordonatele (sx, sy), (dx, dy), (x, y) pentru
+        a contina cautarea in cadranul respectiv 
+    -> daca se intampla sa fie cadranul din dreapta jos, value este negat 
+    -> se repeta pana cand cadranul la care se ajunge este de dimensiune 1*1
+
+-> complexitate temporala: O(k*logn)
+-> complexitate spatiala: o(1)
+
+PROBLEMA 2
+-> folosesc greedy
+-> determin maximul de cuvinte pentru a pastra litera 'a' dominanta pentru toate literele din alfabet
+-> si dupa determin maximul dintre aceste maxime => rezultat final
+-> pentru fiecare litera:
+    -> sortez lista in functie de diferenta dintre literele care sunt 'a' si literele not 'a'
+    -> cele cu diferenta cea mai mica si chiar negativa sunt cele mai dezavantajoase de la fi bagate in lista finala
+    -> daca diferenta este egala, cuvantul cu cele mai putine litere 'a' este cel mai dezavantajos
+    -> sortarea se face de la cel mai dezavantajos pana la cel mai avantajos
+
+-> odata ce pentru o litera avem lista sortata, incepem sa scoatem pe rand cuvintele cele mai dezavantajoase pana ajungem la un raport
+    bun astfel incat litera de la pasul respectiv sa fie dominanta
+-> retinem cate cuvinte avem ramase pentru a determina maximul la final
+
+-> complexitate temporala: O(n * 26) + O(total letters)
+-> Complexitate spatiala: O(n*26) (vectorul de litere pentru fiecare cuvant) + O(26) => O(n)
+
+PROBLEMA 3
+-> am aplicat de 2 ori programare dinamica
+-> are 2 parti: calcul steps si partea de rucsac
+    I. Steps
+    -> calculam separat numarul de steps pentru fiecare numar pana la numarul maxim din vectorul target
+    -> stepsVector se face prin programare dinamica, in urmatorul fel
+    i.e. suntem la stepsVector[6], iteram prin divizorii lui 6
+    1 -> ne uitam la stepsVector[6+1], daca valoarea este mai mare decat (stepsVector[6] + 1) atunci o inlocuim cu 
+        (stepsVector[6] + 1) (practic daca pe acest drum s-a ajuns mai repede la 7)
+    2,3,6-> la fel
+    -> dpa completam vectorul de steps, care la steps[i] contine numarul de steps necesari pentru a ajunge la target[i]
+
+    II. Rucsac
+    -> este la fel cu modelul de Rucsac din laboratorul 1 de programare dinamica, unde
+        weight = steps
+        price = p (numarul de puncte)
+    -> optimizare linia 49: pentru maxTarget <= 10^5, numarul maxim de steps nu trece de 22, 
+        deci k > 22 nu are sens, se repeta valori degeaba
+
+-> complexitate temporala O((n + 1)*(k + 1)) unde k este max 22 (vectorul de steps nu influentaza mult complexitatea)
+-> complexitate spatiala O(n*k + maxTarget)
+
+
+PROBLEMA 4
+-> am rezolvat-o cu programare dinamica
+-> avem matricea dp ce are n-coloane si l-linii
+-> in dp coloanele reprezinta fiecare caracter din k -> deci iterarea prin coloane este de fapt o iterare prin k
+-> in dp liniile reprezinta subsiruri consecutive ale lui s
+    i.e. daca sirul s este 'abc' atunci dp[1] -> a, dp[2] -> ab, dp[3] -> abc
+-> dp[i][j] indica cate subsiruri s[0-i] se afla in substringul format dn primele j caractere din k
+-> variabila numberOfUniqueLetters numara literele unice din s (cele care pot lua locul unui '?')
+-> un alt lucru important este variabila numberOfExtraLines
+    Practic, la fiecare caracter '?' din k, se creeaza numberOfUniqueLetters posibilitati de continuare a sirului
+    i.e. k = ab?dd si s = cdd => 
+        odata ajunsi la caracterul k, noi trebuie cate s sunt in -> abcdd
+                                                                 -> abddd
+        => deci i loc sa avem doar un sir, avem acum 2(s are doar literele c si d) * 1 = numberOfExtraLines
+    => practic -> numberOfExtraLines = (numberOfUniqueLetters)^(numarului de '?' pana in acel punct)
+
+-> cand iteram prin dp exista 3 cazuri
+
+    I. cand k[j] este s[i]
+    -> in acest caz, putem adauga la numararea subsirurilor s[0-i]
+        a. pentru prima linie => adaugam la numarul de subsiruri de pana acum numberOfExtraLines
+            (daca am ajuns la sa avem in "paralel" 10 siruri si acum adaugam un caracter, de fapt adaugam 10)
+        b. pentru celelalte linii => adaugam la numarul de subsiruri pana la pozitia anterioara (dp[i][j-1]])
+                                    numarul de subsiruri de tipul s[0-(i-1)] de la pozitia anterioara
+            (daca avem 3 subsiruri "bc" si 4 subsiruri "bca" si suntem la litera a => 7 siruri "bca")
+
+    II. cand k[j] nu este s[i] dar nici '?'
+    -> in acest caz se mentine numarul de subsiruri de la pasul anterior 
+
+    III. cand k[j] este '?'
+    -> in acest caz se complica treaba deoarece se formeaza mai multe ramuri
+        a. pentru prima linie => spre deosebire de cazul I, aici trebuie sa inmultim numarul precedent de subsiruri
+                                cu numarul de ramuri ce se creeaza (numberOfUniqueLetters)
+            (daca avem 3 siruri "abc" si se creeaza 3 ramuri => avem 9 siruri abc si doar la 3 (numberOfExtraLines) din ele se adauga noua litera, 
+            la celelalte 6 se adauga celelalte 2 litere)
+        b. pentru celelalte linii => la fel, fata de cazul I, trebuie sa inmultim cu numberOfUniqueLetters
+
+-> ah si la toate operatiile astea am folosit MOD ca in laborator
+-> Complexitate: temporala: O(n*l), spatiala: O(n*l) (mai e un vector de lungime l, dar l e max 10 asa ca nu conteaza *sper*)
+
+
+
+
+
+Feedback :)
+-> task-ul 3 mi s-a parut mult mai greu decat 4 din cauza ca a trebuit sa avem 2 dp-uri + o optimizare in plus
+	si acest lucru nu se vede in punctaj
+-> ar ajuta foarte mult niste exemple mai exhaustive, de ex:
+	- la taskul 3, exemplul nu scotea in evidenta cum se calculeaza corect numarul de pasi, pare ca ar fi bine doar sa dublam numarul pana cand acesta nu s emai incadreaza in target, 
+	si doar dupa sa ne uitam si prin ceilalti divizori sa vedem care se incadreaza
+	- acest lucru nu mai este adevarat la numere mari, dar cand iti iese pe foaie pentru cateva numere e greu sa identifici problema
+-> in rest a fost ok
