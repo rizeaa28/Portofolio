@@ -1,0 +1,24 @@
+
+	{
+	"word": "gătii",
+	"word_en": "cook",
+	"type": "verb",
+	"singular": ["gătesc", "gătești", "gătește"],
+	"plural": ["gătim", "gătiti", "gătesc"],
+	"definitions": [
+		{
+			"dict": "Dicționar de sinonime",
+			"dictType": "synonims",
+			"year": 2002,
+			"text": ["a se împodobi", "a se dichisi"]
+		},
+		{
+			"dict": "Dicționarul explicativ al limbii române, ediția a II-a",
+			"dictType": "definitions",
+			"year": 2002,
+			"text": ["(Despre oameni) A se îmbrăca (frumos), a se împodobi, a se dichisi.",
+				"A face, a prepara mâncare (prin fierbere, prăjire etc."]
+		}
+		]
+	}
+

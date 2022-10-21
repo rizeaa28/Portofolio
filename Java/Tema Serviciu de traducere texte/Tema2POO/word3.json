@@ -1,0 +1,26 @@
+
+{
+	"word": "jeu",
+	"word_en": "game",
+	"type": "noun",
+	"singular": ["jeu"],
+	"plural": ["jeux"],
+	"definitions": [
+		{
+			"dict": "Larousse",
+			"dictType": "synonyms",
+			"year": 2000,
+			"text": ["amusement", "délassement", "distraction", "divertissement", "passe-temps", "récréation"]
+		},
+		{
+			"dict": "Larousse",
+			"dictType": "definitions",
+			"year": 2000,
+			"text": ["Activité d'ordre physique ou mental, non imposée, ne visant à aucune fin utilitaire, et à laquelle on s'adonne pour se divertir, en tirer un plaisir",
+				"Activité de loisir soumise à des règles conventionnelles, comportant gagnant(s) et perdant(s) et où interviennent, de façon variable, les qualités physiques ou intellectuelles, l'adresse, l'habileté et le hasard",
+				"Ensemble des différents jeux de hasard, en particulier ceux où l'on risque de l'argent",
+				"Ensemble des règles qui régissent un divertissement organisé"]
+		}
+	]
+}
+

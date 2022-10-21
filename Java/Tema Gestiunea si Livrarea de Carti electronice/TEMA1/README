@@ -1,0 +1,36 @@
+TEMA 1 - POO - Ciuclea Alexia 314CBb
+
+1. Clase Implementate
+- Administration: contine ca variabile datele initializate din fisiere si contine metodele din cerinta
+- Author
+- Book
+- Country
+- EditorialGroup
+- Init: contine metodele ce initializeaza fisierele de input
+- IPublishingArtifact (interfata)
+- Language
+- PublishingBrand
+- PublishingRetailer
+
+	Clasele Author, Book, Country, EditorialGroup, Language, PublishingBrand, PublishingRetailer au constructori cu sau fara parametrii, 
+metode get/set daca este nevoie si o metoda de care adauga un element nou intr-un array de tipul Clasei respective daca a fost nevoie, o metoda toString overriden.
+
+In clasa Init:
+- am folosit snippet-ul de cod din cerinta temei + functia scanner pentru a citi linie cu linie fiecare fisier
+- folosind datele citite am apelat constructorii cu parametrii ai claselor si am adaugat noul obiect creat in array-urile de date
+- in cazul initBooks, pentru ca subtitlul nu era obligatoriu, nu am apelat constructorul cu parametrii ci am folosit un constructor no-arg dupa am folosit metode set pentru a 
+  construi obiectul
+- exceptiile ce pot fi aruncate de citirea fisierului sunt prinse cu "catch"
+- in cazul in care trebuiau initializate legaturi intre date existente folosind noile date din fisier, am citit ID-urile celor doua obiecte ce trebuiesc legate si am\
+  parcurs array-urile tipului de date respective si am realizat legatura
+
+Clasa Administration:
+- are un constructor cu parametrii -> array-urile initializate cu Init 
+- checkIfBookRepeats, checkIfLanguageRepeats, checkIfCountryRepeats, addBook, addLanguage, addCountry sunt helping methods :)
+- getBooksForPublishingRetailerID: caut obiectul publishingRetailer cu ID-ul primit ca parametru, dupa caut prin array-urile de carti (books ale retailer-ului, books ale editorialGroup si ale publishingBrands)
+	si le adaug intr-un nou array de carti cu addBook, verificand daca nu deja exista cartea in acel array; la sfarsit returnez array-ul de carti
+- getLanguagesForPublishingRetailerID: creez lista de carti ale publishingRetailer-ului cu ID primit folosind metoda anterioara;
+	dupa trec prin acest array de carti si verific in ce limba a fost scrisa fiecare carte si adaug limbile intalnite intr-un nou array de languages fara a se repeta
+- getCountriesForBookID: creez lista de carti pentru fiecare retailer in parte, daca cartea cu Id-ul primit in parametru se afla in acea lista, adaug tarile acelui retailer in lista de tari fara se repeta
+- getCommonBooksForRetailerIDs: creez listede de carti pentru cei doi retaileri in parte, trec prin ele si daca o carte se afla in amandoua listele o adaug in array-l ce va fi returnat
+- getAllBooksForRetailerIDs: incept cretea array-ului ce va fi returnat cu una dintre listele de carti ale unui retailer dintre cei doua, dupa parcurg lista celuilalt si adaug cartile care nu se repeta

@@ -1,0 +1,24 @@
+
+	{
+	"word": "carne",
+	"word_en": "meat",
+	"type": "noun",
+	"singular": ["carne"],
+	"plural": ["cărnuri"],
+	"definitions": [
+		{
+			"dict": "Dicționar de expresii",
+			"dictType": "sayings",
+			"year": 2007,
+			"text": ["Carne de tun = masă de militari trimiși pe front spre a lupta și care sunt expuși măcelului.",
+				"Carne vie = carne de pe care s-a jupuit pielea."]
+		},
+		{
+			"dict": "Dicționarul explicativ al limbii române, ediția a II-a",
+			"dictType": "definitions",
+			"year": 2002,
+			"text": ["Țesutul muscular al corpului omenesc și al animalelor împreună cu țesuturile moi la care aderă."]
+		}
+		]
+	}
+

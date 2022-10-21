@@ -1,0 +1,168 @@
+[
+  {
+    "word": "carne",
+    "word_en": "meat",
+    "type": "noun",
+    "singular": [
+      "carne"
+    ],
+    "plural": [
+      "cărnuri"
+    ],
+    "definitions": [
+      {
+        "dict": "Dicționarul explicativ al limbii române, ediția a II-a",
+        "dictType": "definitions",
+        "year": 2002,
+        "text": [
+          "Țesutul muscular al corpului omenesc și al animalelor împreună cu țesuturile moi la care aderă."
+        ]
+      },
+      {
+        "dict": "Dicționar de expresii",
+        "dictType": "sayings",
+        "year": 2007,
+        "text": [
+          "Carne de tun \u003d masă de militari trimiși pe front spre a lupta și care sunt expuși măcelului.",
+          "Carne vie \u003d carne de pe care s-a jupuit pielea."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "cinic",
+    "word_en": "cinical",
+    "type": "noun",
+    "singular": [
+      "cinic"
+    ],
+    "plural": [
+      "cinici"
+    ],
+    "definitions": [
+      {
+        "dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+        "dictType": "definitions",
+        "year": 2009,
+        "text": [
+          "Care manifestă o atitudine condamnabilă, sfidând regulile moralei, normele de conviețuire socială și de bună-cuviință"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "câine",
+    "word_en": "dog",
+    "type": "noun",
+    "singular": [
+      "câine"
+    ],
+    "plural": [
+      "câini"
+    ],
+    "definitions": [
+      {
+        "dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+        "dictType": "definitions",
+        "year": 2009,
+        "text": [
+          "Animal mamifer carnivor, domesticit, folosit pentru pază, vânătoare etc."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "merge",
+    "word_en": "walk",
+    "type": "verb",
+    "singular": [
+      "merg",
+      "mergi",
+      "merge"
+    ],
+    "plural": [
+      "mergem",
+      "mergeți",
+      "merg"
+    ],
+    "definitions": [
+      {
+        "dict": "Dicționar de sinonime",
+        "dictType": "synonyms",
+        "year": 2002,
+        "text": [
+          "se deplasează",
+          "se duce",
+          "se mișcă"
+        ]
+      },
+      {
+        "dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+        "dictType": "definitions",
+        "year": 2009,
+        "text": [
+          "A se mișca deplasându-se dintr-un loc în altul; a se deplasa, a umbla",
+          "A putea fi înghițit ușor; a aluneca pe gât"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "mănâncă",
+    "word_en": "eat",
+    "type": "verb",
+    "singular": [
+      "mănânc",
+      "mănânci",
+      "mănâncă"
+    ],
+    "plural": [
+      "mâncăm",
+      "mâncați",
+      "mănâncă"
+    ],
+    "definitions": [
+      {
+        "dict": "Dicționarul explicativ al limbii române (ediția a II-a revăzută și adăugită)",
+        "dictType": "definitions",
+        "year": 2009,
+        "text": [
+          "A mesteca un aliment în gură și a-l înghiți; a folosi în alimentație, a consuma."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "pisică",
+    "word_en": "cat",
+    "type": "noun",
+    "singular": [
+      "pisică"
+    ],
+    "plural": [
+      "pisici"
+    ],
+    "definitions": [
+      {
+        "dict": "Dicționar de sinonime",
+        "dictType": "synonyms",
+        "year": 1998,
+        "text": [
+          "mâță",
+          "cotoroabă",
+          "cătușă"
+        ]
+      },
+      {
+        "dict": "Dicționarul explicativ al limbii române, ediția a II-a",
+        "dictType": "definitions",
+        "year": 2002,
+        "text": [
+          "Mamifer domestic carnivor din familia felinelor, cu corpul suplu, acoperit cu blană deasă și moale de diferite culori, cu capul rotund, cu botul foarte scurt, cu maxilarele puternice și cu ghearele retractile și ascuțite",
+          "Dispozitiv de agățare și de desprindere a berbecului din capătul cablului de ridicare de la sonetele cu cădere liberă",
+          "Mănunchi de sârme de oțel, folosit pentru curățarea de noroi sau de pământ a utilajelor de foraj"
+        ]
+      }
+    ]
+  }
+]

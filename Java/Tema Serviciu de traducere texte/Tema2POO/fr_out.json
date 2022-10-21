@@ -1,0 +1,126 @@
+[
+  {
+    "word": "chat",
+    "word_en": "cat",
+    "type": "noun",
+    "singular": [
+      "chat"
+    ],
+    "plural": [
+      "chats"
+    ],
+    "definitions": [
+      {
+        "dict": "Larousse",
+        "dictType": "synonyms",
+        "year": 2000,
+        "text": [
+          "greffier",
+          "mistigri",
+          "matou",
+          "minet"
+        ]
+      },
+      {
+        "dict": "Larousse",
+        "dictType": "definitions",
+        "year": 2000,
+        "text": [
+          "Mammifère carnivore (félidé), sauvage ou domestique, au museau court et arrondi",
+          "Familier. Terme d\u0027affection, de tendresse adressé à quelqu\u0027un",
+          "Jeu d\u0027enfants dans lequel un des joueurs, le chat, poursuit les autres et tente de les toucher"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "chien",
+    "word_en": "dog",
+    "type": "noun",
+    "singular": [
+      "chien"
+    ],
+    "plural": [
+      "chienne"
+    ],
+    "definitions": [
+      {
+        "dict": "Larousse",
+        "dictType": "synonyms",
+        "year": 2000,
+        "text": [
+          "clébard"
+        ]
+      },
+      {
+        "dict": "Larousse",
+        "dictType": "definitions",
+        "year": 2000,
+        "text": [
+          "Mammifère (canidé) carnivore aux multiples races, caractérisé par sa facilité à être domestiqué"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "cinique",
+    "word_en": "cinical",
+    "type": "noun",
+    "singular": [
+      "cinique"
+    ],
+    "plural": [
+      "ciniques"
+    ],
+    "definitions": [
+      {
+        "dict": "Larousse",
+        "dictType": "definitions",
+        "year": 2000,
+        "text": [
+          "Qui ignore volontairement les convenances et le savoir-vivre, qui a une conduite et des propos insolents, éloignés de la morale."
+        ]
+      }
+    ]
+  },
+  {
+    "word": "manger",
+    "word_en": "eat",
+    "type": "verb",
+    "singular": [
+      "mange",
+      "manges",
+      "mange"
+    ],
+    "plural": [
+      "mangeons",
+      "mangez",
+      "mangent"
+    ],
+    "definitions": [
+      {
+        "dict": "Larousse",
+        "dictType": "synonyms",
+        "year": 2000,
+        "text": [
+          "absorber",
+          "becqueter",
+          "bouffer",
+          "boulotter",
+          "briffer",
+          "ingurgiter"
+        ]
+      },
+      {
+        "dict": "Larousse",
+        "dictType": "definitions",
+        "year": 2000,
+        "text": [
+          "Porter quelque chose à sa bouche, le mâcher, le mâchonner, le ronger, le mordiller, etc. (sans généralement avaler)",
+          "Entamer quelque chose, ronger, altérer",
+          "En parlant d\u0027un insecte, entamer quelque chose, une matière, y faire des trous"
+        ]
+      }
+    ]
+  }
+]
