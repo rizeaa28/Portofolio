@@ -1,0 +1,75 @@
+324CB - Ciuclea Alexia - Tema3PCOM
+
+Comenzi client:
+
+1. "register"
+=> citeste username si parola folosind functia read_credentials()
+=> verifica daca date au fost introduse si daca sunt valide (nu au spatii)
+=> raspunsurie de la server pot fi: 
+    a. cont creat (cod 201)
+    b. bad request (cod 400): username-ul este indisponibil
+
+2. "login"
+=> citirea datelor este la fel ca la register
+=> daca utilizatorul este deja logat, comanda afiseaza acest lucru si nu se executa citirea datelor
+=> raspunsurile de la server pot fi:
+    a. cont logat (cod 200)
+    b. bad request (400): username-ul sau/si parola sunt gresite
+
+3. "enter_library"
+=> raspunsurile de la server pot fi:
+    a. biblioteca accesata (cod 200)
+    b. bibllioteca nu poate fi accesata deoarece utilizatorul nu este logat (cod 401)
+
+4. "get_books"
+=> nu se executa daca utilizatorul nu este logat
+=> raspunsurile de la server pot fi:
+    a. afiseaza cartile (cod 200)
+    b. nu se dovedeste accesul la librarie (cod 403)
+
+5. "get_book"
+=> citeste id-ul cu get_id()
+=> verifica daca id-ul este valid
+=> nu se executa daca utilizatorul nu este logat
+=> raspunsurile de la server pot fi:
+    a. afiseaza cartea (cod 200)
+    b. id-ul nu exista (cod 404)
+    c. nu se dovedeste accesul la librarie (cod 403)
+
+6. "add_book"
+=> citeste datele cartii cu read_book_details()
+=> in read_book_details() se valideaza si datele, daca datele nu sunt valide, 
+    returneaza NULL si nu se executa comanda
+=> raspunsurile de la server pot fi:
+    a. carte adaugata (cod 200)
+    b. nu se dovedeste accesul la librarie (cod 403)
+    c. inputul nu a fost valid (cod 400)
+
+7. "delete_book"
+=> citirea datelor se face ca la get_book
+=> raspunsurile de la server pot fi:
+    a. sterge cartea (cod 200)
+    b. id-ul nu exista (cod 404)
+    c. nu se dovedeste accesul la librarie (cod 403)
+
+8. "logout"
+=> raspunsurile de la server pot fi:
+    a. da logout la client (cod 200)
+    b. eroare deoarece use-ul nu este logat (cod 401)
+
+9. "exit"
+=> inchide clientul
+
+Functionare client:
+=> retine datele de autentificare si de acces in biblioteca in auth_vookie si access_token
+=> am folosit libraria de parsare json cJSON (usor de folosit, comenzi simple, am mai folosit-o la
+    o tema in anul1 si sunt familiara cu ea)
+    
+
+
+
+
+
+
+
+
