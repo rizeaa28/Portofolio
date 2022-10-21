@@ -1,7 +1,5 @@
 package lab06
 
-import lab04.Main.Empty
-
 // BMP images
 object Matrix {
   // define your functions here
@@ -12,7 +10,7 @@ object Matrix {
       l.foldRight("")((elem, acc) => acc + elem + " ") + "\n"
     }
 
-    m.foldRight("")((elem, acc) => acc + showLine(elem))
+    m.foldRight("")((elem, acc) => showLine(elem) ++ acc)
   }
 
   def hFlip(img: Img): Img = {
@@ -40,18 +38,21 @@ object Matrix {
   def largerPos(img: Img, int: Int): List[(Int,Int)] = {
     var i: Int = -1
     var j: Int = -1
-    for(l <- img)
-      yield {
-        i = i + 1
-        for(x <- l)
-          yield {
-            j = j + 1
-            if(x > int) (i, j)
-            else Nil
-          }
-      }
-
+    val out: IndexedSeq[(Int, Int)] = for (i <- Range(0, img.length);
+                                           j <- Range(0, img.apply(i).length);
+                                            if(img.apply(i).apply(j) > int))
+                                                yield (i, j)
+    out.toList
   }
+
+  def contrast(x: Int)(img: Img): Img = img.map(elem => elem.map(y => y + x))
+
+  def hglue(img1: Img, img2: Img): Img = {
+    (for(i <- Range(0, img1.length))
+      yield img2.apply(i) ::: img1.apply(i)).toList
+  }
+
+  def vglue(img1: Img, img2: Img): Img = img1 ::: img2
 
   def main(args: Array[String]) = {
     val img = List(List(0,0,1,0,0), List(0,1,0,1,0), List(0,1,1,1,0), List(1,0,0,0,1), List(1,0,0,0,1))
@@ -70,6 +71,12 @@ object Matrix {
 
     // Test rot90Left
     printf("Rotate90Left: \n" + show(rot90Left(img)))
+
+    // Test LargerPos
+    printf("Larges pos than 0: \n" + largerPos(img, 0) + "\n")
+
+    // Test Contrast and HGlue
+    printf("Glued 2 images: \n" + show(hglue(img, contrast(3)(img))))
   }
 }
 
