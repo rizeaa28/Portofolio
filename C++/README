@@ -1,0 +1,3 @@
+Both Duck Hunt Game and Car Race Game are build on a very intertwined GFX Framework which we worked on for a whole semester, which explains the big archives needed for running and/or testing the game.
+
+After extracting, the games can be run from GFXFramework.sln and *should* work fine after a long build time.
