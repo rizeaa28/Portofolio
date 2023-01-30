@@ -1,0 +1,25 @@
+Ciuclea Alexia 334CB - Tema 2 APD
+
+Descriere fisiere:
+- Tema2.java => fisierul cu main
+- BigWorker => threadurile de nivel 1
+- SmallWorker => threadurile de nivel 2
+- Order.java => clasa pentru comenzi
+
+  Citirea fisierului orders.txt se face paralel in threadurile big workers. Fiecare big worker verifica daca are cea mai putina treaba (cel mai mic numar de produse), 
+si daca il are, citeste o linie din fisier, dand claim la acel nou order. Variabila nrOfProductsPerBigWorker contine deci numarul de produse detinute de comenzile 
+fiecarui big worker, dar acest numar coincide si cu numarul de taskuri total ce va fi pus in thread pool-ul pentru small workers (numarul de produse ce trebuies
+procesate) si va fi folosit cu acest scop mai tarziu.
+
+  Dupa ce s-au impartit comenzile, big workerii adauga small workeri in thread pool care sa le gaseasca produsele necesare. Dupa creearea de small workeri, big 
+workerii verifica constant daca s-au completat comenzi pentru a le scrie. Acest proces se termina atunci cand nrOfProductsPerBigWorker este 0, deci toate taskurile
+incepute de acel thread sunt terminate.
+
+  Small workerii citesc in paralel fisierul order_products.txt si cauta un produs care sa apartina comenzii "mamă". Toti small workerii copii ai aceleasi comenzi au 
+acelasi reader, ceea ce asigura ca fiecare small worker da deliver la produse diferite. Small workerii se termina cand au gasit un produs sau cand s-a terminat de citit.
+In fiecare caz, ei marcheaza faptul ca si-au terminat treaba, ajutand astfel big workerul sa stie cand nu mai trebuie sa verifice daca comenzile sunt terminate.
+
+Threaduri nivel 1 => P big workeri
+Threaduri nivel 2 => numarul de produse, dar ruleaza simultan doar P datorita ExecutorService cu max P
+
+  Pentru sincronizare am folosit in mare parte 'syncronized'. Readerele si writerele folosit sunt thread-safe.

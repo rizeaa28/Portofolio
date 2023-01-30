@@ -1,0 +1,25 @@
+CIUCLEA ALEXIA - Tema3 APD
+
+Cerinta 1
+-> in general, fiecare lider de cluster face actiuni diferite, insa fiecare worker face acelasi lucru doar ca cu alte seturi de date primite
+-> initial, fiecare lider de cluster isi citeste fisierul in care isi stie workerii si isi salveaza aceste date
+-> dupa, procesul 0 va primi informatia despre workerii fiecaruia de la ceilalti lideri de cluster (2 va trimite prin 1)
+-> procesul 0 combina toata informatia topologiei intr-un vector unde v[i] = liderul lui i. Adica daca 4 si 5 sunt workerii
+   procesului 2 atunci v[4] = v[5] = 2
+-> procesul 0 trimite celorlalti lideri acest vector si liderii trimit workerilor lor
+-> topologia se printeaza cu functia printTopology din fiecare proces
+
+Cerinta 2
+-> procesul 0 genereaza vectorul conform cerintei
+-> dupa, procesul 0 imparte treaba intre workeri in acest fel:
+    daca vectorul are 8 elemente di avem 6 workeri
+worker:    1   2   3   4   5   6
+treaba:    2   2   1   1   1   1
+    adica distribuie cate un element in mod repetat fiecarui worker la rand pana nu mai este treaba de distribuit
+
+-> procesul 0 trimite si primeste pe rand treaba de la fiecare cluster (in cazul lui 2 este trimisa prin 3)
+-> fiecare lider de cluster isi imparte treaba intre workerii lui asemanator modului in care procesul 0 a impartit initial
+   tuturor workerilor si le-o trimite fiecaruia
+-> fiecare worker isi primeste treaba (bucata de vector) si o inmulteste cu 5 si o trimite inapoi la liderul pe care il stie din topologie
+-> fiecare lider de cluster aduna bucatile de vector lucrate de workerii lor si le trimite procesului 0 (sau le retine daca este 0)
+-> procesul 0 printeaza rezultatele
