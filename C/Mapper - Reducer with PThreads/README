@@ -1,0 +1,32 @@
+Ciuclea Alexia 334CB - Tema 1 APD
+
+Descriere fisiere:
+-> tema1.c = main
+-> mapper.c/mapper.h = implementarea thread-ului de tip mapper si a structurii de date trimise ca argument acestuia
+-> reducer.c/reducer.h = implementarea thread-ului de tip reducer si a structurii de date trimise ca argument acestuia
+-> array.c/array.h = implementare de structura de tip array cu spatiu alocat dinamic
+
+    Fiecare tip de thread are propria sa structura de date ce ii va fi trimisa ca argument (Mapper_arg, Reducer_arg) 
+detaliate in reducer.h si mapper.h. Aceasta structura ii este construita fix inainte sa fie creat threadul.
+    Cel mai important aspect al acestor structuri este elementul comun: mapper_outputs. mapper_outputs este o lista de liste de liste de int (:D).
+Fiecare mapper are propria lista de liste de int (lista cu toate sublistele pentru fiecare putere) primita ca argument, in care va trece si outputul rularii.
+Fiecare reducer primeste intregul mapper_outputs din care isi va retrage doar ce are nevoie.
+
+    Am folosit 2 elemente de sincronizare:
+1. un mutex pentru citirea din fisierul cu nume de fisiere, incat threadurile mapper sa nu citeasca acelasi fisier
+2. o bariera incat reducerii sa inceapa dupa terminarea mapperilor
+
+    Mapper:
+-> pentru fiecare fisier citit, parcurg numerele din fisier si isi completeaza outputul
+-> modul in care sunt impartite fisierele la mapperi este dinamic pe modelul primul venit primul servit. Fiecare ia cate un fisier si il proceseaza
+    si dupa ce il termina se intoarce sa ia alt fisier daca mai exista. 
+-> mapperi se opresc cand nu mai sunt fisiere de preluat
+** functia de verify_pow din mapperi foloseste cautare binara. Cautarea binara se face intre 1 si numarul primit ca argument si cauta daca exista un
+    numar x printre acelea care x^power == number
+
+    Reducer:
+-> pornesc deabia dupa terminarea mapperilor datorita barierei
+-> isi extrag lista cu puterea respectiva reducerului din outputul fiecarui mapper la rand
+-> introduce tot ce extrage intr-un array de lungime dinamica
+-> sorteaza array-ul si extrage numarul de elemente distincte
+-> deschide si scrie in fisierul de output numarul respectiv 
