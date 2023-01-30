@@ -1,0 +1,3 @@
+This is a Lexer implemented in Scala using regexes, NFAs and DFAs (Deterministic and Nondeterministic finite automatons).
+
+The Lexer is tested in LexerTests, any test can be simply added there.
